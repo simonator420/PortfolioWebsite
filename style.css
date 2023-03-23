@@ -188,7 +188,7 @@ nav ul li a:hover::after{
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
   }
   .bar .progress-line.csharp span{
-    width: 75%;
+    width: 78%;
   }
   .bar .progress-line.cplusplus span{
     width: 88%;
@@ -312,6 +312,9 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    /* height: 600px; */
+    width: 450px;
+    margin: 0 auto;
 }
 .work img{
     width: 100%;
