@@ -135,7 +135,7 @@ nav ul li a:hover::after{
     display:block;
 }
 .skill-bars{
-    padding: 18.62px 30px;
+    padding: 14px 32px;
     width: 600px;
     background: #262626;
     /* box-shadow: 5px 5px 20px #262626; */
@@ -152,7 +152,7 @@ nav ul li a:hover::after{
   }
   .skill-bars .bar .info span{
     font-weight: 500;
-    font-size: 17px;
+    font-size: 15px;
     opacity: 0;
     animation: showText 0.5s 1s linear forwards;
   }
@@ -162,7 +162,7 @@ nav ul li a:hover::after{
     }
   }
   .skill-bars .bar .progress-line{
-    height: 10px;
+    height: 8px;
     width: 100%;
     background: #fff;
     position: relative;
@@ -233,7 +233,7 @@ nav ul li a:hover::after{
     }
   }
   .progress-line.csharp span::after{
-    content: "Advanced";
+    content: "Skilled";
   }
   .progress-line.cplusplus span::after{
     content: "Advanced";
@@ -375,11 +375,12 @@ nav ul li a:hover::after{
     background: #0097b2;
 }
 /* <!-- ----------CONTACT---------- --> */
-.contact-left{
-    flex-basis: 35%;
+h1{
+    font-size: 60px;
 }
-.contact-right{
-    flex-basis: 60%;
+.contact-left{
+    flex-basis: 100%;
+    text-align: center;
 }
 .contact-left p{
     margin-top: 30px;
@@ -391,6 +392,7 @@ nav ul li a:hover::after{
 }
 .social-icons{
     margin-top: 30px;
+    
 }
 .social-icons a{
     text-decoration: none;
@@ -407,9 +409,6 @@ nav ul li a:hover::after{
 .btn.btn2{
     display: inline-block;
     background: #0097b2;
-}
-.contact-right form{
-    width: 100%;
 }
 form input, form textarea{
     width: 100%;
