@@ -121,7 +121,7 @@ nav ul li a:hover::after{
   }
   .btnhome:hover{
     background: #0097b2;
-    transform: translateY(-3px);
+    transform: translateY(-2.5px);
 }
 /* <!-- ----------ABOUT---------- --> */
 #about{
@@ -132,12 +132,13 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items:stretch;
 }
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 40%;
 }
 .about-col-1 img{
-    width: 100%;
+    width: 405px;
     border-radius: 15px;
     margin-top: 20px;
 }
@@ -452,6 +453,7 @@ nav ul li a:hover::after{
 }
 .social-icons{
     margin-top: 30px;
+    margin-bottom: 75px;
 
 }
 .social-icons a{
