@@ -11,7 +11,7 @@ body{
     background: #080808;
     color: #fff;
 }
-/* musime dat hashtag protoze to je id */
+/* musime dt hashtag protoze to je id */
 #header{
     width: 100%;
     height: 100vh;
@@ -244,10 +244,10 @@ nav ul li a:hover::after{
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
   }
   .bar .progress-line.csharp span{
-    width: 78%;
+    width: 85%;
   }
   .bar .progress-line.cplusplus span{
-    width: 88%;
+    width: 85%;
   }
   .bar .progress-line.python span{
     width: 100%;
@@ -289,7 +289,7 @@ nav ul li a:hover::after{
     }
   }
   .progress-line.csharp span::after{
-    content: "Proficient";
+    content: "Skilled";
   }
   .progress-line.cplusplus span::after{
     content: "Skilled";
@@ -316,47 +316,59 @@ nav ul li a:hover::after{
     width: 15%;
   }
 } */
-/* <!-- ----------SERVICES---------- --> */
-#services{
-    padding: 30px 0; 
-}
-.services-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-.services-list div{
-    background: #262626;
-    font-size: 13px;
-    padding: 40px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
-}
-.services-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-.services-list div h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.services-list div a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-.services-list div:hover{
-    background: #0097b2;
-    transform: translateY(-10px);
-}
 /* <!-- ----------PORTFOLIO---------- --> */
 #portfolio{
     padding: 50px 0;
+}
+.row-one, .row-two{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:stretch;
+}
+.row-two{
+    padding-top: 50px;
+}
+.row-one{
+    padding-top: 20px;
+}
+.web-img-one, .web-img-two{
+    flex-basis: 60%;
+}
+.web-img-one img, .web-img-two img{
+    width: 630px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.web-des-one, .web-des-two{
+    flex-basis: 40%;
+}
+.web-des-two h1, .web-des-one h1{
+    font-size: 25px;
+    padding-top: 80px;
+}
+.web-des-two p, .web-des-one p{
+    margin-top: 20px;
+}
+
+.btn-two{
+    display: flex;
+    /* margin: 50px auto; */
+    width: fit-content;
+    border: 1px solid #0097b2;
+    padding: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+    margin-left: 0px;
+    margin-top: 30px;
+    transition: transform 0.4s;
+
+}
+.btn-two:hover{
+    background: #0097b2;
+    transform: translateY(-2.5px);
 }
 .work-list{
     display: grid;
@@ -429,15 +441,17 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: #fff;
     transition: background 0.5s;
+    transition: transform 0.4s;
 }
 .btn:hover{
     background: #0097b2;
+    transform: translateY(-2.5px);
 }
 /* <!-- ----------CONTACT---------- --> */
 
 .subtit{
     font-size: 60px;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 .contact-left{
     flex-basis: 100%;
@@ -547,6 +561,9 @@ nav .fas{
         font-size: 40px;
     }
     .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .web-des-one, .web-img-one{
         flex-basis: 100%;
     }
     .about-col-1{
