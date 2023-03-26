@@ -320,6 +320,36 @@ nav ul li a:hover::after{
 #portfolio{
     padding: 50px 0;
 }
+.proj-one{
+    margin-top: 7%;
+    font-size: 30px;
+    text-align: center;
+}
+.proj-one h1{
+    font-size: 35px;
+}
+.proj-one p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.btn-three{
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    border: 1px solid #0097b2;
+    padding: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+    transition: transform 0.4s;
+    font-size: 20px;
+}
+.btn-three:hover{
+    background: #0097b2;
+    transform: translateY(-2.5px);
+}
+
 .row-one, .row-two{
     display: flex;
     justify-content: space-between;
