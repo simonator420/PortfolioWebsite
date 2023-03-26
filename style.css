@@ -320,15 +320,15 @@ nav ul li a:hover::after{
 #portfolio{
     padding: 50px 0;
 }
-.proj-one{
+.project{
     margin-top: 7%;
     font-size: 30px;
     text-align: center;
 }
-.proj-one h1{
+.project h1{
     font-size: 35px;
 }
-.proj-one p{
+.project p{
     margin-top: 10px;
     font-size: 20px;
 }
@@ -360,7 +360,7 @@ nav ul li a:hover::after{
     padding-top: 50px;
 }
 .row-one{
-    padding-top: 20px;
+    padding-top: 80px;
 }
 .web-img-one, .web-img-two{
     flex-basis: 60%;
