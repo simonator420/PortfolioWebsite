@@ -12,10 +12,10 @@
     <script src="https://kit.fontawesome.com/8009248281.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="header">
+<div id="header-elementary">
     <div class="container">
         <nav>
-            <img src="images/logo.png" class="logo">
+            <a href="index.html"> <img src="images/logo.png" class="logo"></a>
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -28,3 +28,41 @@
         </nav>
     </div>
 </div>
+
+<div class="project">
+    <h1>File Manager</h1>
+    <p>User-friendly desktop app for simplifying file and folder operations such as zipping and relocating.</p>
+    <!-- <a href="#" class="btn-three">See Project</a> -->
+</div>
+
+<div class="elementary">
+    <!-- <img src="images/web-bohuslavice (1).png"> -->
+    <h2>Project overview</h2>
+    <p>As a developer working for a 3D studio, I was tasked with creating an app to automate the process of managing files and folders. 
+        Using the .NET framework and C# programming language,
+         I developed a file manager app that allows users to easily upload files and folders and perform various actions on them. <br>
+        <br> 
+        The app also includes advanced features such as batch processing, which allows users to perform the same action
+         on multiple files or folders at once, and search functionality, 
+        which makes it easy to locate specific files or folders within a large directory.<br><br>
+        Overall, this file manager app has been a valuable asset for my team, streamlining their workflow and allowing
+         them to automate many time-consuming tasks. Its user-friendly interface and powerful functionality make it an excellent 
+        tool for anyone who needs to manage large quantities of files and folders on a regular basis.
+    </p>
+</div>
+
+<div class="copyright">
+    <p>Copyright © 2023 |  Made with <i class="fa-solid fa-heart"></i> by Šimon Salaj</p>
+</div>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    
+</script>

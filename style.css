@@ -720,8 +720,9 @@ nav .fas{
         margin: 0 auto;
     }
     .elementary h2{
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 20px;
         margin-top: 20px;
+        text-align: center;
     }
 }
