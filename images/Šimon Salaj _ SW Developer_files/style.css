@@ -394,6 +394,7 @@ nav ul li a:hover::after{
     margin-left: 0px;
     margin-top: 30px;
     transition: transform 0.4s;
+
 }
 .btn-two:hover{
     background: #0097b2;
@@ -547,42 +548,26 @@ form .btn2{
 }
 
 /* <!-- ----------ELEMENTARY---------- --> */
-.elementary{
-    margin-bottom: 100px;
-}
 .elementary img{
     width: 800px;
     display: block;
     margin: 0 auto;
     margin-top: 150px;
 }
-.elementary p, .elementary h2{
-    margin-top: 7%;
-    font-size: 16px;
-    font-size: 20px;
-    width: 40%;
-    /* text-align: center; */
-    display: block;
-    margin: 0 auto;
-}
-.elementary h2{
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
+
 /* <!-- ----------SMALL SCREEN CSS---------- --> */
 nav .fas{
     display: none;
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: none;
-        height: 85vh;
+        background-image: url(images/mobile-background\ \(1\).png);
+        height: 75vh;
     }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
-        margin-top: 105px;
+        margin-top: 150px;
     }
     .header-text h1{
         font-size: 30px;
@@ -652,76 +637,5 @@ nav .fas{
         width: 290px;
         display: block;
         margin: 0 auto;
-    }
-    .web-img-one img, .web-img-two img{
-        width: 320px;
-        border-radius: 15px;
-        margin-top: 20px;
-        display: block;
-        margin: 0 auto;
-    }
-    .web-img-two img{
-        margin-top: 30px;
-    }
-    .web-des-two h1, .web-des-one h1{
-        font-size: 25px;
-        padding-top: 70px;
-        text-align: center; 
-    }
-    .web-des-one p, .web-des-two p{
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
-    .project h1{
-        margin-top: 50px;
-        font-size: 25px;
-    }
-    .project p{
-        text-decoration: none;
-        text-align: left;
-        font-size: 16px;
-        text-align: center;
-    }
-    .web-des-two{
-        flex-basis: 100%;
-        margin-top: -55px;
-    }
-    .web-des-one{
-        margin-top: -55px;
-    }
-    .btn-two{
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-    .btn-three{
-        font-size: 16px;
-    }
-    .subtit{
-        font-size: 40px;
-        margin-top: 90px;
-    }
-    .project{
-        width: 320px;
-        display: block;
-        margin: 0 auto;
-    }
-    .elementary img{
-        margin-top: 60px;
-        width: 350px;
-    }
-    .elementary p, .elementary h2{
-        margin-top: 7%;
-        font-size: 16px;
-        width: 75%;
-        /* text-align: center; */
-        display: block;
-        margin: 0 auto;
-    }
-    .elementary h2{
-        font-size: 30px;
-        margin-bottom: 20px;
-        margin-top: 20px;
     }
 }
