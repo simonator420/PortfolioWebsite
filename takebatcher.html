@@ -12,10 +12,10 @@
     <script src="https://kit.fontawesome.com/8009248281.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="header">
+<div id="header-elementary">
     <div class="container">
         <nav>
-            <img src="images/logo.png" class="logo">
+            <a href="https://simonsalaj.com"> <img src="images/logo.png" class="logo"></a>
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -28,3 +28,51 @@
         </nav>
     </div>
 </div>
+
+<div class="project">
+    <h1>Take Batcher</h1>
+    <p>Cinema 4D plugin designed for generating takes from imported materials.</p>
+    <a href="https://github.com/simonator420/TakeBatcher" class="btn-three">Project Link</a>
+</div>
+
+<div class="elementary">
+    <!-- <img src="images/web-bohuslavice (1).png"> -->
+    <h2>Project overview</h2>
+    <p>As a software developer for a 3D studio that specializes 
+        in material digitalization, I had the opportunity to create
+         a Cinema 4D plugin that simplifies render settings and material
+          management. The plugin was developed using Python and the Cinema 4D SDK, 
+        and it is fully compatible with the latest versions of the software.<br><br>
+
+        With this plugin, users can create custom render settings for their 
+        preferred renderer and easily create takes from selected materials.
+         The plugin's intuitive interface allows for quick and easy access
+          to all of its features,
+         making it an essential tool for anyone working with complex 3D scenes.<br><br>
+         In addition to its material management features, the plugin also includes
+          a number of other useful tools, such as automatic naming conventions
+           for render settings and takes, and the ability
+          to easily copy and paste settings between different takes and scenes.<br><br>
+          Overall, this custom renderer and material management plugin for
+           Cinema 4D has been a valuable asset for our studio, saving a lot of time 
+           and streamlining the workflow. Its powerful features and user-friendly 
+           interface make it an essential tool for any
+           3D artist looking to optimize their workflow and achieve stunning results.
+    </p>
+</div>
+
+<div class="copyright">
+    <p>Copyright © 2023 |  Made with <i class="fa-solid fa-heart"></i> by Šimon Salaj</p>
+</div>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    
+</script>

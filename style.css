@@ -570,6 +570,10 @@ form .btn2{
     margin-bottom: 20px;
     margin-top: 20px;
 }
+.btn-three{
+    margin-bottom: 100px;
+    
+}
 /* <!-- ----------SMALL SCREEN CSS---------- --> */
 nav .fas{
     display: none;
