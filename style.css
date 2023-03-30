@@ -17,8 +17,8 @@ body{
     height: 100vh;
     background-image: url(images/black.png);
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
 }
 .container{
     /* zhora a potom zleva */
@@ -130,9 +130,9 @@ nav ul li a:hover::after{
 }
 .row{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     flex-wrap: wrap;
-    align-items:stretch;
+    align-items: stretch;
 }
 .about-col-1{
     flex-basis: 40%;
@@ -320,6 +320,7 @@ nav ul li a:hover::after{
 #portfolio{
     padding: 50px 0;
 }
+
 .project{
     margin-top: 7%;
     font-size: 30px;
@@ -371,8 +372,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .web-des-one, .web-des-two{
-    flex-basis: 40%;
-}
+    flex-basis: 40%;}
 .web-des-two h1, .web-des-one h1{
     font-size: 25px;
     padding-top: 80px;
